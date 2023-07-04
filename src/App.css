@@ -1,0 +1,499 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #0096f4, rgb(0 89 165));
+  padding: 20px 0;
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar_item {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+  position: relative;
+  padding: 0 62px;
+  border-right: 1px solid rgb(83 169 240);
+}
+.navbar .navbar_item:first-child {
+  padding-left: 0;
+}
+.navbar .navbar_item:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+.navbar .navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .navbar .navbar_item::after {
+  position: absolute;
+  content: " ";
+  height: 36px;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-left: 1px solid rgb(83 169 240);
+} */
+.banner {
+  height: 700px;
+  position: relative;
+  background-image: url("https://doctorins.com/wp-content/uploads/2017/12/health-insurance-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doctor-banner {
+  height: 700px;
+  position: relative;
+  background-image: url("https://static.kiit.ac.in/news/2022/09/KIMS-Doctor-selected.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .banner_description h4 {
+  color: rgb(40, 41, 52);
+  font-size: 50px;
+}
+.banner .banner_description p {
+  color: #606060;
+  font-size: 17px !important;
+  font-weight: 400;
+  line-height: 28px;
+}
+.banner .banner_description button {
+  color: rgb(68, 160, 200);
+  border: 2px solid rgb(68, 160, 200);
+  padding: 5px;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+.banner .banner_description button:hover {
+  background-color: rgb(68, 160, 200);
+  color: #fff;
+}
+.banner .container {
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  right: 14%;
+  transform: translateY(-50%);
+}
+.banner > img {
+  height: 100%;
+  width: 100%;
+}
+.read_btn {
+  width: 40% !important;
+  border-radius: 25px !important;
+  text-transform: capitalize !important;
+}
+
+.banner_title {
+  font-weight: 600 !important;
+}
+
+.contact_comp {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 156, 59);
+  color: white;
+}
+.contact_comp p {
+  font-size: 24px !important;
+  font-weight: 400;
+}
+.contact_comp_border {
+  width: 100%;
+  padding: 70px 0px;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 156, 59);
+  color: white;
+}
+.comp-button button {
+  padding: 10px 50px !important;
+  border-radius: 35px !important;
+}
+.contact_number {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin: 0px 10px 0px 20px !important;
+}
+.contact_number_border {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  margin: 0px 10px 0px 20px !important;
+  border: 1px solid white !important;
+  padding: 5px 30px !important;
+  border-radius: 50px !important;
+}
+
+.contact_email {
+  background-color: white !important;
+  padding: 8px 35px !important;
+  border-radius: 25px !important;
+  color: rgb(82, 170, 44) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+.spcecialties-wrap {
+  padding-bottom: 40px;
+}
+.contact_email_border {
+  background-color: white !important;
+  padding: 5px 30px !important;
+  border-radius: 25px !important;
+  color: rgb(64, 167, 17) !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+.section_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0px 30px 0px;
+}
+
+.header .section_header {
+  font-weight: 700 !important;
+  color: #32323e;
+  font-size: 26px !important;
+}
+.header .contact_number {
+  color: #32323e;
+  font-size: 27px !important;
+  font-weight: 600 !important;
+}
+.header .available_time {
+  color: #7b797f;
+  font-size: 15px !important;
+  font-weight: 400;
+  line-height: 20px;
+}
+.header .operator-available {
+  color: #32323e;
+  font-size: 15px;
+  font-weight: 600;
+}
+.header .section_body {
+  color: #7b797f;
+  font-size: 19px !important;
+  font-style: italic;
+  font-weight: 400;
+}
+.section_title > hr {
+  color: rgb(7, 160, 231);
+  background-color: rgb(7, 160, 231);
+  height: 3px;
+  width: 90px;
+  margin-top: 15px;
+  border: initial;
+}
+
+.grid_section {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  gap: 25px;
+}
+
+.surgical_video {
+  background-image: linear-gradient(to right, #0096f4, rgb(0 89 165));
+  padding: 40px 0px 80px 0px;
+}
+.testimonial .container {
+  max-width: 1000px;
+}
+.testimonial .container .css-1xez8po-MuiPaper-root-MuiCard-root {
+  max-width: initial !important;
+}
+.testimonial h5 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #32323e;
+  margin-bottom: 5px;
+}
+.testimonial .grid_section .MuiCardContent-root {
+  position: relative;
+}
+.testimonial .grid_section .testimonials_name {
+  position: absolute;
+  top: -15px;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(7, 160, 231);
+  padding: 3px 10px !important;
+  text-align: center;
+}
+.news .container {
+  max-width: 1000px;
+}
+
+.testimonial .view_all {
+  border: 1px solid rgb(7, 160, 231) !important;
+  color: rgb(7, 160, 231);
+  padding: 6px 35px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.testimonial .grid_section p {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 0 20px 0 !important;
+}
+.testimonial p {
+  color: #77767b;
+  font-size: 19px;
+}
+.surgical_video .grid_section p {
+  color: rgb(52 52 52);
+  font-size: 14px;
+  font-weight: 500;
+}
+.surgical_video .view_all {
+  border: 1px solid white;
+  color: white;
+  padding: 6px 35px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.surgical_video .container {
+  max-width: 1000px;
+}
+.surgical_video h5 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #fbfcf2;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.surgical_video p {
+  color: #fbfcf2;
+  font-size: 19px;
+}
+.spcecialties-wrap .spcecialties {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.spcecialties-wrap .spcecialties .section_title h5 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #32323e;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.spcecialties-wrap .spcecialties .section_title p {
+  color: #77767b;
+  font-size: 19px;
+}
+.spcecialties-wrap .spcecialties > p {
+  margin-top: -10px;
+}
+
+.spcecialties-wrap .container {
+  max-width: 1000px;
+}
+.spcecialties-wrap .container .css-anke5u-MuiPaper-root-MuiCard-root {
+  max-width: initial !important;
+}
+.spcecialties-wrap .grid_section .MuiPaper-root {
+  border-radius: 0px;
+  box-shadow: 0 0 14px 1px #d5d5d5;
+  transition: all 0.5s ease;
+}
+
+.spcecialties-wrap .grid_section .MuiPaper-root .view_btn {
+  border-radius: 25px !important;
+  text-transform: capitalize !important;
+  font-size: 13px !important;
+  margin: 10px 0px 20px !important;
+  color: rgb(69, 183, 237);
+  border: 2px solid rgb(69, 183, 237);
+  padding: 2px 20px;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+.spcecialties-wrap .grid_section .MuiPaper-root .view_all:hover {
+  background-color: rgb(68, 160, 200);
+  color: #fff;
+}
+.spcecialties-wrap .grid_section .spcecialties-card-title {
+  color: rgb(20, 159, 220);
+  font-weight: 600 !important;
+  font-size: 21px !important;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.spcecialties-wrap .grid_section .spcecialties-card-description {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+}
+
+.flex_display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials_name {
+  background-color: rgb(18, 137, 255);
+  color: white;
+  width: 30%;
+  padding: 3px 15px 3px 20px;
+  position: absolute;
+  left: 0%;
+  top: 70%;
+}
+.news {
+  background-color: rgb(226, 233, 239);
+  padding: 50px 0 80px;
+}
+.news h5 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #32323e;
+  margin-bottom: 5px;
+}
+.news p {
+  color: #77767b;
+  font-size: 19px;
+}
+.news .news-dec {
+  font-weight: 500;
+  line-height: 22px;
+  color: rgb(50, 50, 62);
+  padding: 15px 0;
+  font-size: 17px;
+}
+.grid_item_two {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  margin: auto;
+  gap: 23px;
+}
+.news .card_share {
+  border-top: 1px solid rgba(183, 183, 183, 0.489);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+}
+.icon_share {
+  color: rgb(24, 162, 217);
+}
+
+.header .email-today {
+  font-size: 15px !important;
+  padding: 10px 40px !important;
+  border-radius: 25px !important;
+  background-color: rgb(77, 181, 39);
+  font-weight: 600;
+}
+.flex_list {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.footer {
+  background-color: rgb(0, 32, 63);
+
+  padding: 70px 0px !important;
+}
+.footer .container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  max-width: 1000px;
+}
+.footer_item_list {
+  color: rgb(254, 253, 253) !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  margin-bottom: 8px !important;
+}
+.footer_item_list_title {
+  color: rgb(76, 106, 132);
+  font-size: 15px !important;
+  margin-bottom: 25px !important;
+  font-weight: 700 !important;
+}
+.footer_item_doctor {
+  color: rgb(254, 253, 253);
+  font-size: 31px !important;
+  font-weight: 700 !important;
+  line-height: 38px !important;
+}
+.footer_item_list_description {
+  color: rgb(254, 253, 253);
+  font-size: 14px !important;
+  margin: 25px 0px !important;
+  line-height: 23px !important;
+}
+
+button.social-icon {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: rgb(254, 253, 253);
+  border: initial;
+  margin-right: 6px;
+}
+button.facebook {
+  background-color: #4968ad;
+}
+
+button.twitter {
+  background-color: #1da1f2;
+}
+button.google {
+  background-color: #db4437;
+}
+button.linkedin {
+  background-color: #0e76a8;
+}
+.social-media {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}
+.copy_right {
+  color: rgba(183, 183, 183, 0.489);
+  font-size: 12px !important;
+  margin-left: 20px !important;
+}
+.header {
+  padding: 30px 0;
+}
